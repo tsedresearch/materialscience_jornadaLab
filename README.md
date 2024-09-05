@@ -16,7 +16,7 @@ Using machine learning interatomic potentials to study the photodeterioration of
 
   **Dataset Creation** <br />
   <br />
-        Using the [LiFDatasetCreator.py] (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/LiFDatasetCreator.py), we can create rattled structures of materials. <br />
+        Using the [LiFDatasetCreator.py](https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/LiFDatasetCreator.py), we can create rattled structures of materials. <br />
            => to change the number of structures to be created, assign the "N" argument in the **generate_random_strucutres_ratlle()** function to the number of the rattled strucutres that you want to generate.
 
   **Conversion of Trajectory Files to XYZ-files**<br />
