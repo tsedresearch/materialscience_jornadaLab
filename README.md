@@ -34,7 +34,7 @@ Using machine learning interatomic potentials to study the photodeterioration of
 
  **Force Extractor**<br />
  <br />
-        => This file takes an xyz file as an input and extracts the force in the file and writes it to a csv file. The file is [force_extractor.py] (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/force_extractor.py)
+        => This file takes an xyz file as an input and extracts the force in the file and writes it to a csv file. The file is [force_extractor.py](https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/force_extractor.py).
     
  **Training MACE Models**<br />
  <br />
