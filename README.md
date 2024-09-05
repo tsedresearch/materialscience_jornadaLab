@@ -13,12 +13,13 @@ Using machine learning interatomic potentials to study the photodeterioration of
   - Computing observables like Potential Energy, Kinetic Energy, Radial Distribution Function and Mean-squared Displacement
   - Combining forces and energies
   - Removing free energy from MACE-evaluted files
-
-  **Dataset Creation** <br />
+  <details>
+ <summary> **Dataset Creation** </summary><br />
   <br />
         Using the [LiFDatasetCreator.py](https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/LiFDatasetCreator.py), we can create rattled structures of materials. <br />
            => to change the number of structures to be created, assign the "N" argument in the **generate_random_strucutres_ratlle()** function to the number of the rattled strucutres that you want to generate.
-
+  </details>
+   
   **Conversion of Trajectory Files to XYZ-files**<br />
   <br />
          To convert files that have .traj extension to xyz file, use the [convert_traj.py](https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/convert_traj.py)
