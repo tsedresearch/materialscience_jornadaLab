@@ -21,7 +21,7 @@ Using machine learning interatomic potentials to study the photodeterioration of
 
   **Conversion of Trajectory Files to XYZ-files**<br />
   <br />
-         To convert files that have .traj extension to xyz file, use the [convert_traj.py] (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/convert_traj.py)
+         To convert files that have .traj extension to xyz file, use the [convert_traj.py](https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/convert_traj.py)
 
   **Calculating Forces and Energies** <br />
   <br />
