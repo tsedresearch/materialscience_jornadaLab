@@ -38,7 +38,7 @@ Using machine learning interatomic potentials to study the photodeterioration of
     
  **Training MACE Models**<br />
  <br />
-         => To train MACE models, use the [train_mace_model.py] (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/train_mace_model.py). To learn more about the parameters, visit the following [github page] (https://github.com/ACEsuit/mace)
+         => To train MACE models, use the [train_mace_model.py](https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/train_mace_model.py). To learn more about the parameters, visit the following [github page](https://github.com/ACEsuit/mace).
 
   **Evaluating MACE Models**<br />
   <br />
