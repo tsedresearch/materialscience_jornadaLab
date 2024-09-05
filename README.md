@@ -19,13 +19,14 @@ Using machine learning interatomic potentials to study the photodeterioration of
            => to change the number of structures to be created, assign the "N" argument in the generate_random_strucutres_ratlle() function to the number of the rattled strucutres that you want to generate.
 
   **Conversion of Trajectory Files to XYZ-files**<br />
-         => to convert files that have .traj extension to xyz file, use the convert_traj.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/convert_traj.py)
+         To convert files that have .traj extension to xyz file, use the convert_traj.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/convert_traj.py)
 
   ??? Calculating forces and energies
      => 
      
  **Energy Extractor**<br />
-        => This file takes an xyz file as an input and extracts the energy in the file and writes it to a csv file. The file is energy_extractor.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/energy_extractor.py)
+ <br /> 
+        This file takes an xyz file as an input and extracts the energy in the file and writes it to a csv file. The file is energy_extractor.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/energy_extractor.py)
 
  **Force Extractor**<br />
         => This file takes an xyz file as an input and extracts the force in the file and writes it to a csv file. The file is force_extractor.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/force_extractor.py)
