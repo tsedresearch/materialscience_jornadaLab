@@ -25,7 +25,7 @@ Using machine learning interatomic potentials to study the photodeterioration of
 
   **Calculating Forces and Energies** <br />
   <br />
-    After creating the rattled structures, to calculate the forces and the energies, use energy_force_calculator.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/energy_force_calculator.py). This file takes one xyz file and creates three different xyz output file: one calculated with single MACE calculator, one calculated with double MACE calculators, one LAMMPS calculator.
+    After creating the rattled structures, to calculate the forces and the energies, use energy_force_calculator.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/energy_force_calculator.py). This file takes one xyz file and creates three different xyz output file: one calculated with single MACE calculator, one calculated with double MACE calculators, one LAMMPS calculator. To understand more about the types of potentials to select and the parameters to put for LAMMPS calculation, check out the following documentation LAMMPS documentation (https://docs.lammps.org/).
       
      
  **Energy Extractor**<br />
