@@ -42,7 +42,7 @@ Using machine learning interatomic potentials to study the photodeterioration of
 
   **Evaluating MACE Models**<br />
   <br />
-          To evalute the trained MACE models, use [evaluate_mace.py] (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/evaluate_mace.py). You can find the trained model inside the "results" directory specified in the training script.
+          To evalute the trained MACE models, use [evaluate_mace.py](https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/evaluate_mace.py). You can find the trained model inside the "results" directory specified in the training script.
   <br />
 
 **Computing Obervables (Potential Energy, Kinetic Energy, Radial Distribution FUnction, Mean-squared Displacement)**<br />
