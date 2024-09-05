@@ -25,6 +25,7 @@ atoms.set_calculator(atoms.calc)
 MaxwellBoltzmannDistribution(atoms, temperature_K=0)
 
 # Define the molecular dynamics method
+# To change the optimizer algorithm to langevin, first make the following importation "from ase.md.langevin import Langevin"
 dyn = VelocityVerlet(atoms, dt=1.0 * units.fs)
 pe_list = []
 ke_list = []
