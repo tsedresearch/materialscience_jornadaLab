@@ -43,13 +43,13 @@ Using machine learning interatomic potentials to study the photodeterioration of
           To evalute the trained MACE models, use evaluate_mace.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/evaluate_mace.py). You can find the trained model inside the "results" directory specified in the training script.
 
    **Computing Obervables (Potential Energy, Kinetic Energy, Radial Distribution FUnction, Mean-squared Displacement)**<br />
-       => To compute with LAMMPS, use lammps_LiFCalculator.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/lammps_LiFCalculator.py). <br />
-       => To compute observables with one MACE model using MACE calculator, use MACE_Computer.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/MACE_COMPUTER.py). <br />
+       => To compute with LAMMPS, use lammps_LiFCalculator.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/lammps_LiFCalculator.py). <br /><br />
+       => To compute observables with one MACE model using MACE calculator, use MACE_Computer.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/MACE_COMPUTER.py). <br /><br />
        => To compute observables with two MACE models using MACE calculator, use DUAL_CALC_Computer.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/DUAL_CALC_Computer.py)
 
   **Combining Forces and Energies**<br />
   <br />
-        To sum the forces and energies in two different xyz files, we parse the xyz files, extract them and add them. We then write them back to the the rattled structure file. We then end up having forces and energies that are the sum of those in the two different xyz files. We can do this using the following script, combiner_forces_energy.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/combiner_forces_energy.py)
+        To sum the forces and energies in two different xyz files, we parse the xyz files, extract them and add them. We then write them back to the the rattled structure file. We then end up having forces and energies that are the sum of those in the two different xyz files. We can do this using the following script, combiner_forces_energy.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/combiner_forces_energy.py).
      
    
      
