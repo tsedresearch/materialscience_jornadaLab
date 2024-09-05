@@ -91,7 +91,7 @@ with open(csv_file_path, 'w', newline='') as csvfile:
         writer.writerow(row)
 print(f"Data successfully written to the csv 2")
 
-######################################################  TH one below calculates the mean-squared displacement.
+######################################################  The one below calculates the mean-squared displacement.
 # Define your atomic configuration
 atoms = read("{the directory of the dataset file}", "0", format="extxyz")
 # Create a MACE calculator instance
