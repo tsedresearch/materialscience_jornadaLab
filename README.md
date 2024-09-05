@@ -23,8 +23,10 @@ Using machine learning interatomic potentials to study the photodeterioration of
   <br />
          To convert files that have .traj extension to xyz file, use the convert_traj.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/convert_traj.py)
 
-  **Calculating Forces and Energies**
-     => 
+  **Calculating Forces and Energies** <br />
+  <br />
+    After creating the rattled structures, to calculate the forces and the energies, use energy_force_calculator.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/energy_force_calculator.py). This file takes one xyz file and creates three different xyz output file: one calculated with single MACE calculator, one calculated with double MACE calculators, one LAMMPS calculator.
+      
      
  **Energy Extractor**<br />
  <br /> 
