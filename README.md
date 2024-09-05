@@ -32,6 +32,15 @@ Using machine learning interatomic potentials to study the photodeterioration of
   Training MACE Models
      => To train MACE models, use the train_mace_model.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/train_mace_model.py). To learn more about the parameters, visit the following github page (https://github.com/ACEsuit/mace)
 
+   Evaluating MACE Models
+     => To evalute the trained MACE models, use evaluate_mace.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/evaluate_mace.py). You can find the model inside the "results" directory.
+
+   Computing Obervables (Potential Energy, Kinetic Energy, Radial Distribution FUnction, Mean-squared Displacement)
+     => To compute with LAMMPS, use lammps_LiFCalculator.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/lammps_LiFCalculator.py).
+     => To compute observables with one MACE model using MACE calculator, use MACE_Computer.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/MACE_COMPUTER.py).
+     => To compute observables with two MACE models using MACE calculator, use DUAL_CALC_Computer.py (https://github.com/tsedresearch/materialscience_jornadaLab/blob/main/DUAL_CALC_Computer.py)
+     
+
  
    
    
